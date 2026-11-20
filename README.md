@@ -267,14 +267,68 @@ Deployment configuration and operating guides are included in the private projec
 
 ## About This Repository
 
-This repository is the **public showcase** for Fulvory.
+---
 
-It contains:
+## 📁 Showcase Repository Structure
 
-- The project overview.
-- Feature and workflow explanations.
-- Architecture and backend engineering highlights.
-- Screenshots.
-- A demo video link.
+This public repository contains Fulvory's project documentation, screenshots, and a link to its demonstration video.
 
-The application source code is maintained in a private repository and is **available for review on request**.
+| Path | Description |
+|---|---|
+| README.md | Project overview, features, workflows, architecture, and demo link. |
+| screenshots/catalog.png | Customer product catalog. |
+| screenshots/supplier-orders.png | Supplier order management workspace. |
+| screenshots/inventory.png | Inventory management workspace. |
+| .gitignore | Excludes local IDE settings and temporary files. |
+
+### Source Code Availability
+
+The complete Fulvory application source code is maintained in a separate private GitHub repository.
+
+It includes:
+
+- Java Spring Boot backend and REST APIs.
+- React frontend built with Vite.
+- PostgreSQL schema and Flyway database migrations.
+- Authentication, authorization, and account recovery components.
+- Order processing, stock reservation, and fulfillment logic.
+- Delivery records, audit history, and courier simulation.
+- Automated backend, frontend, and simulator tests.
+- Docker configuration and GitHub Actions workflows.
+
+**Source-code review or a technical walkthrough may be arranged upon request.**
+
+---
+
+## 🎯 Project Purpose
+
+Fulvory is a personal portfolio project focused on strengthening practical skills in Java backend engineering and full-stack application development.
+
+The project focuses on:
+
+1. Designing RESTful APIs using Java and Spring Boot.
+2. Organizing a modular monolith with clear controller, service, and repository responsibilities.
+3. Implementing authentication, role-based authorization, and customer business ownership checks.
+4. Managing relational data and schema migrations with PostgreSQL and Flyway.
+5. Applying transactions, database locks, and constraints to protect inventory consistency.
+6. Handling repeated order submissions safely through idempotency.
+7. Building account verification, password recovery, and durable email processing.
+8. Integrating React interfaces with Spring Boot REST services.
+9. Recording significant business actions through audit and stock histories.
+10. Practicing automated testing, debugging, container packaging, and continuous integration.
+
+The application provides a practical setting for studying how business rules, security, data consistency, and failure recovery work together.
+
+---
+
+## 👨‍💻 Developer
+
+**Bryan — Aspiring Java Backend Developer**
+
+GitHub: [@IT-BRYYY](https://github.com/IT-BRYYY)
+
+**Primary Technologies:** Java · Spring Boot · Spring Security · PostgreSQL · React · REST APIs
+
+---
+
+*Fulvory — Wholesale ordering, inventory control, and organized fulfillment.*
